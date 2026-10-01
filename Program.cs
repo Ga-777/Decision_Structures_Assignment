@@ -7,7 +7,7 @@
             double angle;
             int time;
             Console.WriteLine("Hello, welcome to the Compass app");
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Please enter your angle: ");
                 while (!double.TryParse(Console.ReadLine(), out angle))
@@ -20,7 +20,7 @@
                 compass(angle);
 
             }
-            for (int i = 0; i < 1; i++)
+            for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine("Please press enter to continue: ");
                 Console.ReadLine();
