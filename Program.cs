@@ -22,8 +22,6 @@
             }
             for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine("Please press enter to continue: ");
-                Console.ReadLine();
                 Console.Clear();
                 Console.WriteLine("Welcome to Garage Parking Cost calculator or GPCC!");
                 Thread.Sleep(1000);
